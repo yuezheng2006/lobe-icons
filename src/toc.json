@@ -3010,7 +3010,7 @@
       "hasBrand": false,
       "hasBrandColor": false,
       "hasColor": true,
-      "hasCombine": true,
+      "hasCombine": false,
       "hasText": false,
       "hasTextCn": false,
       "hasTextColor": false

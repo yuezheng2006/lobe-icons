@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm docs:build",
+  "framework": null,
+  "installCommand": "pnpm install --no-frozen-lockfile",
+  "outputDirectory": "dist"
+}
