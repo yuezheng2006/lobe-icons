@@ -161,6 +161,7 @@ export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './Lan
 export { default as LangGraph, type CompoundedIcon as LangGraphProps } from './LangGraph';
 export { default as LangSmith, type CompoundedIcon as LangSmithProps } from './LangSmith';
 export { default as LeptonAI, type CompoundedIcon as LeptonAIProps } from './LeptonAI';
+export { default as Leishi, type CompoundedIcon as LeishiProps } from './Leishi';
 export { default as LG, type CompoundedIcon as LGProps } from './LG';
 export { default as Lightricks, type CompoundedIcon as LightricksProps } from './Lightricks';
 export { default as Liquid, type CompoundedIcon as LiquidProps } from './Liquid';

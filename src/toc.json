@@ -2999,6 +2999,25 @@
     "title": "LeptonAI"
   },
   {
+    "color": "#0066FF",
+    "desc": "https://leishi.com",
+    "docsUrl": "leishi",
+    "fullTitle": "Leishi (雷石)",
+    "group": "provider",
+    "id": "Leishi",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": false,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Leishi"
+  },
+  {
     "color": "#C00C3F",
     "desc": "https://lgresearch.ai",
     "docsUrl": "lg",
