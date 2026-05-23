@@ -6,26 +6,30 @@ import type { IconType } from '@/types';
 
 import { TITLE } from '../style';
 
+// Thunder/Lightning bolt icon with "雷石" (Leishi) text
+// Simplified vector representation based on the brand logo
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
   return (
     <svg
       height={size}
       style={{ flex: 'none', lineHeight: 1, ...style }}
-      viewBox="0 0 1000 189"
+      viewBox="0 0 200 200"
       width={size}
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
       <title>{TITLE}</title>
-      <path d="M0 0h189v189H94.5V94.5H0V0z" fill="#0066FF" fillRule="evenodd" />
-      <path d="M283.5 0h94.5v189h-94.5V0z" fill="#0066FF" fillRule="evenodd" />
+      {/* Lightning bolt shape */}
       <path
-        d="M472.5 0h94.5v94.5h94.5V0h94.5v189h-189V94.5h-94.5V0z"
+        d="M100 20 L120 80 L140 80 L90 140 L110 100 L80 100 Z"
         fill="#0066FF"
         fillRule="evenodd"
       />
-      <path d="M850.5 0H945v189h-94.5V0z" fill="#0066FF" fillRule="evenodd" />
-      <path d="M661.5 94.5h94.5V189h-94.5V94.5z" fill="#0066FF" fillRule="evenodd" />
+      {/* Simplified representation - this is a placeholder */}
+      {/* The actual logo requires proper vectorization of the PNG */}
+      <text fill="#0066FF" fontSize="40" fontWeight="bold" textAnchor="middle" x="100" y="180">
+        雷石
+      </text>
     </svg>
   );
 });
