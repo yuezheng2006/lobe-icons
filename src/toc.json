@@ -3010,12 +3010,12 @@
       "hasBrand": false,
       "hasBrandColor": false,
       "hasColor": true,
-      "hasCombine": false,
-      "hasText": false,
+      "hasCombine": true,
+      "hasText": true,
       "hasTextCn": false,
       "hasTextColor": false
     },
-    "title": "Leishi"
+    "title": "THUNDERSTONE"
   },
   {
     "color": "#C00C3F",
