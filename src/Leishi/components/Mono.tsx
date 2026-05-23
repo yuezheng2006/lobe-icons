@@ -13,15 +13,17 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       fillRule="evenodd"
       height={size}
       style={{ flex: 'none', lineHeight: 1, ...style }}
-      viewBox="0 0 24 24"
+      viewBox="0 0 1000 189"
       width={size}
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
       <title>{TITLE}</title>
-      {/* Placeholder - SVG path needs to be generated from PNG logo */}
-      <rect width="24" height="24" fill="currentColor" />
-      <text x="12" y="12" textAnchor="middle" dominantBaseline="middle" fill="white" fontSize="8">L</text>
+      <path d="M0 0h189v189H94.5V94.5H0V0z" fill="currentColor" />
+      <path d="M283.5 0h94.5v189h-94.5V0z" fill="currentColor" />
+      <path d="M472.5 0h94.5v94.5h94.5V0h94.5v189h-189V94.5h-94.5V0z" fill="currentColor" />
+      <path d="M850.5 0H945v189h-94.5V0z" fill="currentColor" />
+      <path d="M661.5 94.5h94.5V189h-94.5V94.5z" fill="currentColor" />
     </svg>
   );
 });
