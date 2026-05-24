@@ -15,10 +15,10 @@ export type CompoundedIcon = typeof Mono & {
 };
 
 const Icons = Mono as CompoundedIcon;
-Icons.Text = Text;
-Icons.Combine = Combine;
-Icons.Color = Color;
 Icons.Avatar = Avatar;
+Icons.Color = Color;
+Icons.Combine = Combine;
+Icons.Text = Text;
 Icons.colorPrimary = COLOR_PRIMARY;
 Icons.title = TITLE;
 
